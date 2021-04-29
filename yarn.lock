@@ -1147,6 +1147,14 @@
     "@delon/util" "^11.9.0"
     tslib "^2.0.0"
 
+"@delon/auth@^11.10.0":
+  version "11.10.0"
+  resolved "https://registry.nlark.com/@delon/auth/download/@delon/auth-11.10.0.tgz#244347d5ea2e96f875a91a1c82481cef94dc12ec"
+  integrity sha1-JENH1eoulvh1qRocgkgc75TcEuw=
+  dependencies:
+    "@delon/util" "^11.10.0"
+    tslib "^2.0.0"
+
 "@delon/form@^11.9.0":
   version "11.9.0"
   resolved "https://registry.npm.taobao.org/@delon/form/download/@delon/form-11.9.0.tgz#653f962fbb97a7efe800a0e66f7e9d3e9a1ae694"
@@ -1166,6 +1174,14 @@
     "@delon/acl" "^11.9.0"
     "@delon/util" "^11.9.0"
     ng-zorro-antd "^11.4.0"
+    tslib "^2.0.0"
+
+"@delon/util@^11.10.0":
+  version "11.10.0"
+  resolved "https://registry.nlark.com/@delon/util/download/@delon/util-11.10.0.tgz#973bc3b0d9fd7e62cab54ec0421c43d8bd51ba6a"
+  integrity sha1-lzvDsNn9fmLKtU7AQhxD2L1Rumo=
+  dependencies:
+    extend "^3.0.2"
     tslib "^2.0.0"
 
 "@delon/util@^11.9.0":
