@@ -1139,6 +1139,14 @@
   resolved "https://registry.npm.taobao.org/@ctrl/tinycolor/download/@ctrl/tinycolor-3.4.0.tgz#c3c5ae543c897caa9c2a68630bed355be5f9990f"
   integrity sha1-w8WuVDyJfKqcKmhjC+01W+X5mQ8=
 
+"@delon/acl@^11.10.0":
+  version "11.10.0"
+  resolved "https://registry.nlark.com/@delon/acl/download/@delon/acl-11.10.0.tgz#8306fa770200cfcac1a645dfad57eaad31fd67be"
+  integrity sha1-gwb6dwIAz8rBpkXfrVfqrTH9Z74=
+  dependencies:
+    "@delon/util" "^11.10.0"
+    tslib "^2.0.0"
+
 "@delon/acl@^11.9.0":
   version "11.9.0"
   resolved "https://registry.npm.taobao.org/@delon/acl/download/@delon/acl-11.9.0.tgz#c36c032846a792d7bbc3d3b394aca84bbc8c71b3"

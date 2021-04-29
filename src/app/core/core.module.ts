@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 /** delon 配置 */
 import { DelonFormModule } from '@delon/form';
 import {DelonAuthModule, SimpleTokenModel} from '@delon/auth';
+import { DelonACLModule } from '@delon/acl';
 
 /** ng-zorro-antd 配置 */
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
@@ -30,6 +31,7 @@ registerLocaleData(zh);
     CommonModule,
     DelonFormModule.forRoot(),
     DelonAuthModule,
+    DelonACLModule.forRoot(),
   ]
 })
 export class CoreModule { }
