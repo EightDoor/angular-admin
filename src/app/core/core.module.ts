@@ -18,7 +18,7 @@ registerLocaleData(zh);
   declarations: [],
   providers: [
     { provide: NZ_I18N,
-    useValue: zh_CN
+    useValue: zh_CN,
     },
     // 指定认证风格对应的HTTP拦截器
     {

@@ -22,6 +22,7 @@
     "@delon/acl": "^11.10.0",
     "@delon/auth": "^11.10.0",
     "@delon/form": "^11.9.0",
+    "@delon/util": "^11.10.0",
     "ng-zorro-antd": "^11.4.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",

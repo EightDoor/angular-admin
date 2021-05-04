@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CoreModule } from './core/core.module';
+import  {GlobalConfigModule} from './core/global-config.module';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { CoreModule } from './core/core.module';
     HttpClientModule,
     BrowserAnimationsModule,
     CoreModule,
+    GlobalConfigModule,
   ],
   providers: [
 
