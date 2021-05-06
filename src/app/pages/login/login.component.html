@@ -1,3 +1,8 @@
 <div class="container">
-  <sf [schema]="schema" (formSubmit)="submit($event)"></sf>
+  <div class="title">angular-admin 后台管理</div>
+  <sf [schema]="schema" #sf button="none" (formSubmit)="submit($event)">
+    <div class="submit">
+      <button type="submit" nz-button [disabled]="!sf.valid">登陆</button>
+    </div>
+  </sf>
 </div>

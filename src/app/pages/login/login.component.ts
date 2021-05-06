@@ -1,29 +1,37 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { SFSchema } from '@delon/form';
+import { RequestService } from '../../utils/request.service';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.less']
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent{
   schema: SFSchema = {
     properties: {
       username: {
         type: 'string',
         title: "用户名",
       },
+      password: {
+        type: 'string',
+        title: "密码",
+        ui: {
+          type: 'password',
+        }
+      },
     },
-    required: ["username"]
+    required: ["username", "password"]
   }
 
 
-  constructor() { }
+  constructor(private http: RequestService) { }
 
-  ngOnInit(): void {
-    console.log(123);
-  }
   submit(value:any) {
     console.log(value);
+    this.http.post("auth/login", {}).subscribe((res)=>{
+      console.log(res);
+    })
   }
 }

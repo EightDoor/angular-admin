@@ -4,7 +4,9 @@ import { ALAIN_CONFIG, AlainConfig } from '@delon/util';
 
 const alainConfig: AlainConfig = {
   sf: {
-
+    ui: {
+      debug: true,
+    }
   }
 }
 

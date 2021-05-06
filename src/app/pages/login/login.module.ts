@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login.component';
 import {RouterModule, Routes} from '@angular/router';
 import { DelonFormModule } from '@delon/form';
+import { NzButtonModule } from 'ng-zorro-antd/button';
 
 const routes: Routes = [
   {
@@ -18,6 +19,7 @@ const routes: Routes = [
         CommonModule,
         RouterModule.forChild(routes),
         DelonFormModule,
+      NzButtonModule
     ],
   exports: [
     RouterModule
